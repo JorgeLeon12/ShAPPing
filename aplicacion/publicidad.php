@@ -11,18 +11,20 @@ html, body, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 	include 'sql.php';
 if(isset($_GET['dat']) && $_GET['dat'] == 2){
 echo '
-	<div>
-    	<img src="" width="150" height="150">
-        <img src="" width="150" height="150">
-    </div><div>
-        <img src="" width="150" height="150">
-        <img src="" width="150" height="150">
+<div aling="center">
+	<div aling="center" style=" width:100%;" >
+    	<img src="publicidad.png" width="230" height="230">
+        <img src="publicidad.png" width="230" height="230">
+    </div><div aling="center">
+    	<img src="publicidad.png" width="230" height="230">
+        <img src="publicidad.png" width="230" height="230">
     </div>
-';
+	<div aling="center"><a href="categorias.php"><h2>Buscar</h3></div><div>
+</div>';
 }else{
 echo '
 	<div>
-    	<img src="" width="100%" height="100%">
+    	<img src="publicidad.png" width="100%" height="100%">
 		<meta http-equiv="Refresh" content="5;url=registro.php">
     </div>
 ';

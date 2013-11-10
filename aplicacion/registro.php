@@ -14,19 +14,24 @@ if(isset($_SESSION['id'])){
     outline:0;
     font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
 } </style>
+<div style="width:100%;height:100%;background-image:url(../imagenes/images.jpg)">
+	<fieldset>
+	
     <form method="post" action="reRegistro.php" >
+	<div align="center" >
 	<table border="0">
-    	<tr><td>Correo:</td><td><input type="text" name="correo"></td></tr>
-        <tr><td>Contrase&ntilde;a:</td><td><input type="text" name="contra"></td></tr>
-        <tr><td>Edad:</td><td><select name="edad">
+    	<tr><td><font size="+2" > Correo:</font></td><td><input type="text" name="correo"></td></tr>
+        <tr><td><font size="+2">Contrase&ntilde;a: </font></td><td><input type="text" name="contra"></td></tr>
+        <tr><td><font size="+2">Edad:</font></td><td><select name="edad">
                 <option>
                 '.$EDAD.'
                 </option>
                 </select></td></tr>
-        <tr><td>Genero:</td><td><select name="genero"><option></option><option value="M">Masculino</option><option value="F">Femenino</option></select></td></tr>
+        <tr><td><font size="+2">Genero:</font></td><td><select name="genero"><option></option><option value="M">Masculino</option><option value="F">Femenino</option></select></td></tr>
         <tr><td><input type="submit" value="Registrar"></table>
         <br>
-        <a hrefsrc="publicidad.php?dat=2">No registrarme por ahora</a>
-    </form>';
+        <a href src="publicidad.php?dat=2"><font size="+2">No registrarme por ahora</font></a>
+    </div></form></fieldset>
+    </div>';
 }
 ?>

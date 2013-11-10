@@ -23,7 +23,7 @@ echo '
 echo '
 	<div>
     	<img src="" width="100%" height="100%">
-		<meta http-equiv="Refresh" content="5;url=registro.php>
+		<meta http-equiv="Refresh" content="5;url=registro.php">
     </div>
 ';
 }

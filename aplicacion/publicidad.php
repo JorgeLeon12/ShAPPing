@@ -19,7 +19,7 @@ echo '
     	<img src="publicidad.png" width="230" height="230">
         <img src="publicidad.png" width="230" height="230">
     </div>
-	<div aling="center"><a href="categorias.php"><h2>Buscar</h3></div><div>
+	<div aling="center"><a href="categorias.php"><h3>Buscar</h3></div><div>
 </div>';
 }else{
 echo '
